@@ -1,0 +1,47 @@
+{
+  "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "MailCraft",
+          "summary": "AI email action assistant that summarizes unread emails, extracts deadlines, and drafts replies.",
+          "description": "MailCraft connects your inbox with Gemini AI and Model Context Protocol to extract actionable tasks and deadlines from busy inboxes. Ask MailCraft to summarize your morning emails, list priority deadlines, and prepare ready-to-send draft replies completely hands-free.",
+          "examplePhrases": [
+            "Alexa, open Mail Craft",
+            "Alexa, ask Mail Craft to summarize my inbox",
+            "Alexa, ask Mail Craft what are my deadlines"
+          ],
+          "keywords": [
+            "email",
+            "productivity",
+            "gemini",
+            "ai",
+            "assistant",
+            "deadlines",
+            "tasks"
+          ]
+        }
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "Open skill and test with sample emails: 'summarize my inbox', 'what are my deadlines', 'draft reply to Sarah'.",
+      "category": "ORGANIZERS_AND_ASSISTANTS",
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "arn:aws:lambda:us-east-1:YOUR_ACCOUNT_ID:function:MailCraftSkillHandler"
+        },
+        "interfaces": []
+      }
+    },
+    "manifestVersion": "1.0",
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
+      "usesPersonalInfo": false,
+      "isChildDirected": false,
+      "isExportCompliant": true,
+      "containsAds": false
+    }
+  }
+}

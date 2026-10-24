@@ -1,0 +1,13 @@
+{
+  "name": "mailcraft",
+  "version": "1.0.0",
+  "description": "MailCraft — Email Action Agent with Amazon Alexa, AWS Lambda, Node.js, React, Express, Gemini API & MCP",
+  "scripts": {
+    "start": "node server/server.js",
+    "server": "node server/server.js",
+    "client": "npm --prefix client run dev",
+    "build:client": "npm --prefix client run build",
+    "test": "node server/test-endpoints.js",
+    "mcp": "node server/mcp/index.js"
+  }
+}

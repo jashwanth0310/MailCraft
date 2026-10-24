@@ -1,0 +1,14 @@
+{
+  "name": "mailcraft-alexa-lambda",
+  "version": "1.0.0",
+  "description": "AWS Lambda Skill Handler for MailCraft Alexa Skill",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "dependencies": {
+    "ask-sdk-core": "^2.14.0",
+    "ask-sdk-model": "^2.14.0",
+    "axios": "^1.7.9"
+  }
+}

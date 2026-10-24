@@ -1,0 +1,180 @@
+[
+  {
+    "id": "email-101",
+    "sender": "Sarah Jenkins",
+    "senderEmail": "sarah.j@acmetech.com",
+    "recipient": "you@company.com",
+    "subject": "URGENT: Q4 Product Strategy Slides & Board Review",
+    "date": "2026-10-24T08:30:00Z",
+    "snippet": "Need final numbers and executive summary slides before Friday 5:00 PM for the upcoming board meeting...",
+    "body": "Hi team,\n\nI hope your week is going well. As discussed in Monday's standup, we have our Q4 Board of Directors meeting scheduled for next Monday morning.\n\nI need your team to finalize the 3 key product strategy slides and the updated customer retention metrics. Please ensure this is uploaded to the shared Drive no later than this Friday at 5:00 PM EST so our CEO can do a dry run over the weekend.\n\nCould you also confirm whether the enterprise pilot numbers from NorthStar Health are included in these projections? That's going to be a top question from the board.\n\nThanks,\nSarah Jenkins\nVP of Product Management\nAcmeTech Inc.",
+    "unread": true,
+    "priority": "high",
+    "tags": [
+      "Urgent",
+      "Board",
+      "Strategy"
+    ],
+    "actionExtracted": true,
+    "drafts": [
+      {
+        "id": "draft-1792822407665",
+        "text": "Hi Sarah,\n\nThank you for the update regarding URGENT: Q4 Product Strategy Slides & Board Review.\n\nI have reviewed the details and our team is prioritizing this. We will ensure all requirements and deadlines are met as outlined.\n\nPlease feel free to reach out if you need additional details in the meantime.",
+        "tone": "professional",
+        "createdAt": "2026-10-24T06:13:27.665Z"
+      },
+      {
+        "id": "draft-1792821666566",
+        "text": "Hi Sarah,\n\nThank you for the update regarding URGENT: Q4 Product Strategy Slides & Board Review.\n\nI have reviewed the details and our team is prioritizing this. We will ensure all requirements and deadlines are met as outlined.\n\nPlease feel free to reach out if you need additional details in the meantime.",
+        "tone": "professional",
+        "createdAt": "2026-10-24T06:01:06.566Z"
+      },
+      {
+        "id": "draft-1792819552477",
+        "text": "Hi Sarah,\n\nThank you for the update regarding URGENT: Q4 Product Strategy Slides & Board Review.\n\nI have reviewed the details and our team is prioritizing this. We will ensure all requirements and deadlines are met as outlined.\n\nPlease feel free to reach out if you need additional details in the meantime.",
+        "tone": "professional",
+        "createdAt": "2026-10-24T05:25:52.477Z"
+      }
+    ],
+    "actions": {
+      "emailSubject": "URGENT: Q4 Product Strategy Slides & Board Review",
+      "hasActionItems": true,
+      "tasks": [
+        {
+          "task": "Finalize 3 key product strategy slides and updated customer retention metrics",
+          "deadline": "Friday at 5:00 PM EST",
+          "urgency": "high",
+          "assignee": "You / Product Team",
+          "context": "Needed for Q4 Board of Directors meeting dry run with CEO over the weekend",
+          "suggestedAction": "Upload slides to shared Google Drive"
+        },
+        {
+          "task": "Confirm inclusion of NorthStar Health enterprise pilot numbers",
+          "deadline": "Before board dry run",
+          "urgency": "medium",
+          "assignee": "You",
+          "context": "Top question anticipated from board members",
+          "suggestedAction": "Check metrics spreadsheet and reply to Sarah"
+        }
+      ],
+      "followUpNeeded": true,
+      "briefingNote": "Finalize 3 key product strategy slides and updated customer retention metrics, due by Friday at 5:00 PM EST."
+    }
+  },
+  {
+    "id": "email-102",
+    "sender": "Marcus Vance",
+    "senderEmail": "marcus.v@cloudscale.io",
+    "recipient": "you@company.com",
+    "subject": "Action Required: Enterprise Contract Renewal & Tier Pricing",
+    "date": "2026-10-23T16:15:00Z",
+    "snippet": "Our current enterprise tier expires on November 15. Please review the updated SOW and sign by October 29...",
+    "body": "Hi there,\n\nOur annual enterprise infrastructure agreement is coming up for renewal on November 15, 2026. Attached is the revised Statement of Work (SOW) reflecting the 15% committed-use discount we negotiated.\n\nTo lock in this tier before our billing cycle cut-off, we will need your authorized sign-off on the DocuSign agreement by Tuesday, October 29th at 3:00 PM EST.\n\nIf you need any adjustments to the data retention addendum or SLA terms, please let me know by tomorrow afternoon so our legal counsel can review.\n\nBest regards,\nMarcus Vance\nKey Account Executive | CloudScale.io",
+    "unread": true,
+    "priority": "high",
+    "tags": [
+      "Contract",
+      "Finance",
+      "Legal"
+    ],
+    "actionExtracted": true,
+    "drafts": [],
+    "actions": {
+      "emailSubject": "Action Required: Enterprise Contract Renewal & Tier Pricing",
+      "hasActionItems": true,
+      "tasks": [
+        {
+          "task": "Sign DocuSign agreement for Enterprise Infrastructure renewal with 15% discount",
+          "deadline": "Tuesday, October 29 at 3:00 PM EST",
+          "urgency": "high",
+          "assignee": "You / Authorized Signer",
+          "context": "Annual enterprise tier expires on November 15",
+          "suggestedAction": "Complete DocuSign sign-off"
+        }
+      ],
+      "followUpNeeded": true,
+      "briefingNote": "Sign DocuSign agreement for Enterprise Infrastructure renewal with 15% discount, due by Tuesday, October 29 at 3:00 PM EST."
+    }
+  },
+  {
+    "id": "email-103",
+    "sender": "DevOps Incident Response",
+    "senderEmail": "incident-bot@company.internal",
+    "recipient": "you@company.com",
+    "subject": "Incident #4492 Post-Mortem Review Meeting (Tomorrow 10:00 AM)",
+    "date": "2026-10-24T07:45:00Z",
+    "snippet": "Action items from yesterday's API Gateway outage: please review the root cause analysis document before our meeting...",
+    "body": "Hello Engineering Leads,\n\nFollowing yesterday's 14-minute API Gateway degradation (P2 Incident #4492), the DevOps team has completed the preliminary Root Cause Analysis (RCA).\n\nKey action required:\n1. All service owners must review the incident post-mortem doc (link in engineering portal) before our sync tomorrow, October 25 at 10:00 AM PST.\n2. Please prepare remediation milestones for Redis connection pooling limits.\n3. Identify who from your team will be on primary on-call rotation next week by end of day today.\n\nMeeting link: meet.google.com/xyz-post-mortem\n\nRegards,\nDevOps On-Call Team",
+    "unread": true,
+    "priority": "medium",
+    "tags": [
+      "Engineering",
+      "Post-Mortem",
+      "Incident"
+    ],
+    "actionExtracted": true,
+    "drafts": [],
+    "actions": {
+      "emailSubject": "Incident #4492 Post-Mortem Review Meeting (Tomorrow 10:00 AM)",
+      "hasActionItems": true,
+      "tasks": [
+        {
+          "task": "Review Incident #4492 post-mortem document prior to team sync",
+          "deadline": "Tomorrow, October 25 at 10:00 AM PST",
+          "urgency": "high",
+          "assignee": "Engineering Leads / You",
+          "context": "14-minute API Gateway degradation review",
+          "suggestedAction": "Open engineering portal RCA doc"
+        },
+        {
+          "task": "Designate primary on-call rotation engineer for next week",
+          "deadline": "End of day today",
+          "urgency": "medium",
+          "assignee": "You",
+          "context": "DevOps weekly rotation schedule",
+          "suggestedAction": "Post engineer name in DevOps Slack channel"
+        }
+      ],
+      "followUpNeeded": true,
+      "briefingNote": "Review Incident #4492 post-mortem document prior to team sync, due by Tomorrow, October 25 at 10:00 AM PST."
+    }
+  },
+  {
+    "id": "email-104",
+    "sender": "Elena Rostova",
+    "senderEmail": "elena.design@studioflow.co",
+    "recipient": "you@company.com",
+    "subject": "Feedback on Checkout Redesign V2 & Usability Testing Results",
+    "date": "2026-10-22T14:20:00Z",
+    "snippet": "We concluded 12 moderated user tests on the new 1-click checkout flow. Let us know if you approve Option B...",
+    "body": "Hey,\n\nWe wrapped up the usability test sessions on the redesigned checkout flow yesterday. The results are super promising: Option B (with frictionless guest checkout and Apple Pay prominent) reduced cart abandonment by 24% compared to current production.\n\nWe'd love to get your team's feedback and sign-off on the Figma wireframes by Monday, October 27 at 12:00 PM. We want to hand off the component specs to the frontend engineers in sprint 34.\n\nCheck out the prototype link in Figma when you have a moment.\n\nCheers,\nElena Rostova\nLead UX Designer",
+    "unread": false,
+    "priority": "medium",
+    "tags": [
+      "Design",
+      "UX",
+      "Product"
+    ],
+    "actionExtracted": false,
+    "drafts": []
+  },
+  {
+    "id": "email-105",
+    "sender": "David Chen",
+    "senderEmail": "david.chen@acmetech.com",
+    "recipient": "you@company.com",
+    "subject": "Budget Allocation for Q1 2027 AI Tooling & API Subscriptions",
+    "date": "2026-10-21T11:00:00Z",
+    "snippet": "Finance department requires department heads to submit AI tooling budget forecasts by October 31...",
+    "body": "Hi,\n\nAs we kick off our 2027 fiscal planning, the Finance Committee is asking every engineering and product team to submit their anticipated tooling, LLM API tokens, and cloud development budgets for Q1.\n\nPlease fill out the departmental spreadsheet by Friday, October 31st at 6:00 PM.\n\nIf your planned spend exceeds $25,000/month, please include a 1-page business justification highlighting ROI and projected developer productivity gains.\n\nThanks,\nDavid Chen\nDirector of Financial Planning & Analysis",
+    "unread": false,
+    "priority": "low",
+    "tags": [
+      "Finance",
+      "Budget",
+      "Planning"
+    ],
+    "actionExtracted": false,
+    "drafts": []
+  }
+]

@@ -1,0 +1,100 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "mail craft",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": [
+            "cancel",
+            "never mind"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": [
+            "help",
+            "what can you do",
+            "how does this work",
+            "instructions"
+          ]
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "exit",
+            "quit",
+            "goodbye",
+            "bye"
+          ]
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "SummarizeInboxIntent",
+          "slots": [],
+          "samples": [
+            "summarize my inbox",
+            "summarize my emails",
+            "what's in my email",
+            "give me my email summary",
+            "what's new in my inbox",
+            "give me a briefing",
+            "read my inbox briefing",
+            "how many unread emails do I have"
+          ]
+        },
+        {
+          "name": "ExtractDeadlinesIntent",
+          "slots": [],
+          "samples": [
+            "what are my deadlines",
+            "what needs action",
+            "extract deadlines",
+            "what tasks do I have",
+            "do I have any deadlines this week",
+            "what are my deliverables",
+            "what is urgent today",
+            "tell me my upcoming deadlines"
+          ]
+        },
+        {
+          "name": "LatestEmailIntent",
+          "slots": [],
+          "samples": [
+            "read my latest email",
+            "what is my newest message",
+            "who sent the last email",
+            "read the most recent email",
+            "summarize my latest email"
+          ]
+        },
+        {
+          "name": "DraftReplyIntent",
+          "slots": [
+            {
+              "name": "SenderName",
+              "type": "AMAZON.FirstName"
+            }
+          ],
+          "samples": [
+            "draft a reply",
+            "draft a reply to {SenderName}",
+            "reply to {SenderName}",
+            "respond to {SenderName}",
+            "draft an email to {SenderName}",
+            "prepare a response for {SenderName}"
+          ]
+        }
+      ],
+      "types": []
+    }
+  }
+}
